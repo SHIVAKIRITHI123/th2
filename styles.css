@@ -1,0 +1,65 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+  justify-content: space-evenly;
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(255, 226, 226);
+  display: flex;
+}
+body {
+  background-color: rgba(245, 245, 245, 0.911);
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: space-evenly;
+}
+.g1{
+  border: 4px inset rgb(135, 236, 208);
+  border-radius: 50px;
+}
+.g2{
+  border: 4px inset rgb(105, 63, 173);
+  border-radius: 50px;
+}
+.g3{
+  border: 2px inset rgb(243, 243, 74);
+  border-radius: 50px;
+}
+.g4{
+  border: 4px inset rgb(197, 237, 224);
+  border-radius: 50px;
+}
+.g5{
+  border: 4px inset rgb(151, 161, 223);
+  border-radius: 50px;
+}
+.g6{
+  border: 4px inset rgb(237, 197, 230);
+  border-radius: 50px;
+}
+.g7{
+  border: 4px inset rgb(238, 124, 104);
+  border-radius: 50px;
+}
+.g8{
+  border: 4px inset rgb(247, 73, 111);
+  border-radius: 50px;
+}
+/*.grid img {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+}*/
+.origami {
+  border-radius: 30px;
+  background-color: rgb(168, 165, 165);
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
